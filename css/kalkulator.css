@@ -13,13 +13,17 @@ body{
     width: 350px;
 }
 #ekran{
-    width: 100%;
+    width: 90%;
     height: 60px;
     background-color: rgb(82, 76, 76);
     border-radius: 10px;
     border: none;
+    margin: 0 auto;
     margin-bottom: 15px;
-
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
 }
 #dugmici{
     display: grid;
