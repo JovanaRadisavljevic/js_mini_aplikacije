@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverzija temperature</title>
+    <link rel="stylesheet" href="/css/konverzijaTemperature.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Online konvertor temperature</h1>
+        <div class="polja">
+            <div class="unos">
+                <label for="">Unesite vrednost:</label>
+                <input type="text" id="temperatura" required>
+            </div>
+            <div class="dugmici">
+                <button id="farenhajt">Pretvori iz celzijusa u farenhajt</button>
+                <button id="celzijus">Pretvori iz farenhajta u celzijus</button>
+            </div>
+            <div class="rezultat">
+                <p>Rezultat: </p>
+                <input type="text" id="rezultat" readonly>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/konverzijaTemperature.js"></script>
+</body>
+</html>
