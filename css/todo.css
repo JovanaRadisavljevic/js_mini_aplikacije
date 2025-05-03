@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    padding: 20px;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formaTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.formaTask input[type="text"]{
+    width: 300px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.formaTask input[type="date"]{
+    width: 300px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.formaTask input[type="submit"]{
+ 
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.formaTask input[type="submit"]:hover{
+    background-color: #45a049;
+ 
+}
+
+.kanban-board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+.task{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+    position: relative;
+}

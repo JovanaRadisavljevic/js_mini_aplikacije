@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do lista</title>
+    <link rel="stylesheet" href="/css/todo.css">
+</head>
+<body>
+    <h1>Kanban to do lista</h1>
+    <div class="formaTask">
+        <form  >
+            <input type="text"  id="taskNaslov" name="taskNaslov" placeholder="Unesi naziv zadatka" required> 
+            <input type="text"  id="taskOpis" name="taskOpis" placeholder="Unesi opis zadatka" required>
+            <input type="date" name="taskDatum" id="taskDatum" required>
+            <input type="submit" value="+" id="dodajTask">
+        </form>
+    </div>
+    <div class="kanban-board">
+        <div class="kolona">
+            <h2>Planirano</h2>
+            <div class="stavkeListe" id="planirano"> 
+                
+            </div>
+        </div>
+        <div class="kolona">
+            <h2>U toku</h2>
+            <div class="stavkeListe" id="utoku">
+                
+            </div>
+        </div>
+        <div class="kolona">
+            <h2>Zavrseno</h2>
+            <div class="stavkeListe" id="zavrseno">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/todo.js"></script>
+</body>
+</html>
