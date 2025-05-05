@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(187, 148, 187);
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
 }
 .main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(101, 70, 131);
+    background-color: rgb(71, 131, 148);
     margin: 100px auto;
     max-width: 500px;
     border-radius: 15px;
@@ -48,11 +49,11 @@ body{
 button {
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(69, 25, 109);
+    background-color: rgb(89, 153, 182);
     color: aliceblue;
     border: none;
 }
 button:hover{
-    background-color: rgb(143, 64, 217);
+    background-color: rgb(24, 197, 186);
     border: 1px solid whitesmoke;
 }
